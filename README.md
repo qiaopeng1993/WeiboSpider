@@ -1,3 +1,5 @@
+**中文说明** | [English](./README_EN.md)
+
 # WeiboSpider
 <a href="https://github.com/nghuyong/WeiboSpider/stargazers">
     <img src="https://img.shields.io/github/stars/nghuyong/WeiboSpider.svg?colorA=orange&colorB=orange&logo=github"
@@ -15,10 +17,6 @@
              alt="GitHub license">
 </a>
 
-[English Version Readme](./README_EN.md)
-
-这可能是全网最强的微博爬虫项目！[持续维护中]
-
 ## 项目说明
 
 ### 版本说明
@@ -26,8 +24,10 @@
 
 |分支|特点|抓取量|
 |:---:|:---:|:---:|
-|[simple](https://github.com/nghuyong/WeiboSpider/tree/simple)|单账号,单IP,单机器|十万级|
-|[master](https://github.com/nghuyong/WeiboSpider/tree/master)|账号池,IP池,Docker分布式|数亿级(**理论无上限**)|
+|[master](https://github.com/nghuyong/WeiboSpider/tree/master)|单账号,单IP,单机器|十万级|
+|[senior](https://github.com/nghuyong/WeiboSpider/tree/senior)|账号池,IP池,Docker分布式|数亿级(**理论无上限**)|
+
+**当前分支是senior版本**
 
 ### 支持爬虫
 - 用户信息抓取
@@ -190,7 +190,7 @@ Added: https://weibo.cn/1266321801/profile?page=1
 如果抓取微博/评论/社交关系数据，`10(data/page)` ，则一天的数据抓取量为
  
  `43,200,000(pages/day) * 10(data/page) = 432,000,000(data/day)` **4.3亿数据**
-
+ 
 ## 写在最后
 基于该项目已经构建千万级别的微博活跃用户数据集，以及海量的微博舆情数据集，现已公开[weibo-public-opinion-datasets](https://github.com/nghuyong/weibo-public-opinion-datasets)
 

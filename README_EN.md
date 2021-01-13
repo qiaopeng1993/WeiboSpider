@@ -1,3 +1,5 @@
+[中文说明](./README.md) | **English**
+
 # WeiboSpider
 <a href="https://github.com/nghuyong/WeiboSpider/stargazers">
     <img src="https://img.shields.io/github/stars/nghuyong/WeiboSpider.svg?colorA=orange&colorB=orange&logo=github"
@@ -24,8 +26,10 @@ The project has 2 branches to meet different needs:
 
 |Branch|Features|Magnitude of the crawled data|
 |:---:|:---:|:---:|
-|[simple](https://github.com/nghuyong/WeiboSpider/tree/simple)|Single account, single IP, single machine|Hundreds of thousands|
-|[master](https://github.com/nghuyong/WeiboSpider/tree/master)|Account pool, IP pool, Docker|Hundreds of millions(**Theoretical unlimited**)|
+|[master](https://github.com/nghuyong/WeiboSpider/tree/master)|Single account, single IP, single machine|Hundreds of thousands|
+|[senior](https://github.com/nghuyong/WeiboSpider/tree/senior)|Account pool, IP pool, Docker|Hundreds of millions(**Theoretical unlimited**)|
+
+**This is senior branch**
 
 ### Supported crawling types
 - User Information
